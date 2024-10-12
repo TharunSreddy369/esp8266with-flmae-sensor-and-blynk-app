@@ -14,8 +14,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Abcd";  // put your mobile Wifi name 
-char pass[] = "123456789";  //Put your Password of your connection passward
+char ssid[] = "---------------";  // put your mobile Wifi name 
+char pass[] = "----------------";  //Put your Password of your connection passward
 
 int buzzer = 2;//D4 pin in esp8266
 
