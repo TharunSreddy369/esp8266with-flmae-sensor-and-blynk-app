@@ -4,9 +4,9 @@
 #include <BlynkSimpleEsp8266.h>
 #define BLYNK_PRINT Serial
 
-#define BLYNK_TEMPLATE_ID "TMPL3BqYPa3P5"
-#define BLYNK_TEMPLATE_NAME "flame detection"
-#define BLYNK_AUTH_TOKEN "fpDRhIaImNFhBOn1FYk0PjQpCTNUcLzM"
+#define BLYNK_TEMPLATE_ID "--------------------"
+#define BLYNK_TEMPLATE_NAME "-------------------"
+#define BLYNK_AUTH_TOKEN "-----------------------"
 
 
 
@@ -55,7 +55,7 @@ void alert_situation() {
     if (state != LOW) {
       tone(buzzer, 1000, 200);
       if (currentMillis - previousMillis1 >= 1000) {
-        Blynk.logEvent("flame_detection");
+        Blynk.logEvent("-----------------");
       }
       previousMillis1 = currentMillis;
     }
